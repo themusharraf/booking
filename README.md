@@ -35,7 +35,7 @@ GET /api/rooms
 
 Parametrlar:
 
-- `search`: Xona nomi orqali qidirish
+- `search`: Xona nomi orqali qidirish 
 - `type`: xona turi bo'yicha saralash (`focus`, `team`, `conference`)
 - `page`: sahifa tartib raqami
 - `page_size`: sahifadagi maksimum natijalar soni
