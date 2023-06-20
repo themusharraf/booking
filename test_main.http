@@ -1,0 +1,40 @@
+# Test your Booking endpoints
+
+GET http://127.0.0.1:8000/api/rooms
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/rooms/1
+Accept: application/json
+
+
+###
+#Error
+GET http://127.0.0.1:8000/api/rooms/45
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/rooms/1/availability
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/rooms/1/availability?date=2023-06-25
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/rooms/1/book
+Content-Type: application/json
+
+{
+  "resident": {
+    "name": "Anvar Sanayev"
+  },
+  "start": "25-06-2023 10:45:00",
+  "end": "25-06-2023 11:00:00"
+}
+###
+

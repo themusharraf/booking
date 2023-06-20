@@ -1,0 +1,38 @@
+[
+  {
+    "model": "apps.room",
+    "pk": 1,
+    "fields": {
+      "name": "1 chi xona",
+      "type": "team",
+      "capacity": "25"
+    }
+  },
+  {
+    "model": "apps.room",
+    "pk": 2,
+    "fields": {
+      "name": "2 chi xona",
+      "type": "focus",
+      "capacity": "15"
+    }
+  },
+  {
+    "model": "apps.room",
+    "pk": 3,
+    "fields": {
+      "name": "3 chi xona",
+      "type": "focus",
+      "capacity": "15"
+    }
+  },
+  {
+    "model": "apps.room",
+    "pk": 4,
+    "fields": {
+      "name": "4 chi xona",
+      "type": "conference",
+      "capacity": "45"
+    }
+  }
+]
